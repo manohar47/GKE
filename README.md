@@ -39,7 +39,7 @@ gcloud projects add-iam-policy-binding $DEVSHELL_PROJECT_ID \
     --role roles/cloudsql.client \
     --member serviceAccount:cloudsql-proxy
 ```
-##Create the service account key for cloudsql-proxy SA
+Create the service account key for cloudsql-proxy SA
 
 ```
 gcloud iam service-accounts keys create ./key.json \
