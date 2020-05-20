@@ -3,7 +3,7 @@
 Wordpress on GCP
 
 ### Architecture overview
-![](/gke/Screen Shot 2020-05-20 at 6.59.35 PM.png)
+![](gke/Screen%20Shot%202020-05-20%20at%206.59.35%20PM.png)
 
 ### Prerequisites
 
