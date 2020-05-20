@@ -36,7 +36,7 @@ kubectl apply -f gke/wordpress-volumeclaim.yaml
 Create Service account for cloudsql proxy and add the cloudsql client role to the SA inorder to allow WordPress app to access the MySQL instance through Cloud SQL proxy
 
 ```
-gcloud iam service-accounts create cloudsql-proxy --display-name $cloudsql-proxy
+gcloud iam service-accounts create cloudsql-proxy --display-name cloudsql-proxy
 
 gcloud projects add-iam-policy-binding $DEVSHELL_PROJECT_ID \
     --role roles/cloudsql.client \
