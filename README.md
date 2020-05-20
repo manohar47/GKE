@@ -15,8 +15,7 @@
 
 Deploy the GKE cluster and cloudSQL instance in GCP as per the configuration defined inside the terraform files 
 
-Create Service account for terraform with necessary roles attached in Cloud IAM
-Following are the terraform commands that need to be executed
+Create Service account for terraform with necessary roles attached in Cloud IAM. Following are the terraform commands that need to be executed
 
 ```
 Terraform init 
