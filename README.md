@@ -1,6 +1,6 @@
 # Project Title
 
-Wordpress on GCP
+## Wordpress on GCP
 
 ### Architecture overview
 ![](gke/Screen%20Shot%202020-05-20%20at%206.59.35%20PM.png)
