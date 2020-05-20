@@ -2,6 +2,9 @@
 
 Wordpress on GCP
 
+### Architecture overview
+![](/gke/Screen Shot 2020-05-20 at 6.59.35 PM.png)
+
 ### Prerequisites
 
 - Google Kuberntes Engine
