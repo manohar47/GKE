@@ -88,7 +88,7 @@ kubectl create -f $WORKING_DIR/wordpress-service.yaml
 
 * (http://35.236.5.106)
 
-## Referance Documnetation
+## Reference Documnetation
 
 * [Terraform-cloudsql](https://www.terraform.io/docs/providers/google/r/sql_database_instance.html) 
 * [Terraform-GKE](https://www.terraform.io/docs/providers/google/r/container_cluster.html)
