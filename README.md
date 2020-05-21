@@ -72,6 +72,11 @@ Deploy the manifest file
 ```
 kubectl create -f $WORKING_DIR/wordpress_cloudsql.yaml
 ```
+Deploy the HorizontalPodAutoscaler to enable autosacaling based on the metrics defined
+
+```
+kubecctl create -f $WORKING_DIR/hpa.yaml
+```
 
 ### Create a wordpress service inorder to expose the deployed wordpress app to the outside internet traffic
 
